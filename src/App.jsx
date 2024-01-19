@@ -5,8 +5,10 @@ import Konto from './assets/components/konto/Konto'
 function App() {
 
   const [obj, setObj] = useState({
-    entry: ""
+    entry: "",
   })
+
+  const [konto, setKonto] = useState(0)
 
   return (
     <>
