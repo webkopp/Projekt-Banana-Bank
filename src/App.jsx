@@ -1,12 +1,11 @@
 import { useState } from 'react'
 import './App.css'
-import Kontostand from './assets/components/kontostand/Kontostand'
-import Form from './assets/components/form/Form'
+import Konto from './assets/components/konto/Konto'
 
 function App() {
 
   const [obj, setObj] = useState({
-    saldo: ""
+    entry: ""
   })
 
   return (
