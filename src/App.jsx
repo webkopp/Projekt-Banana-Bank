@@ -11,17 +11,15 @@ function App() {
   return (
     <>
       <div>
-        <h1>Banana Bank</h1>
-
-        <Form
-          setObj={setObj}
-          obj={obj}
+        <h1>Digital ATM</h1>
+        <h3>of Bananan Bank</h3>
+        <Konto
+          obj = {obj}
+          setObj = {setObj}
+          konto = {konto}
+          setKonto = {setKonto}
         />
-        <Kontostand
-          KontoObj={KontoObj}
-          setKontoObj={setKontoObj}
-        />
-        </div>
+      </div>
 
     </>
   )
