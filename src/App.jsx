@@ -14,7 +14,7 @@ function App() {
     <>
       <div>
         <h1>Digital ATM</h1>
-        <h3>of Bananan Bank</h3>
+        <h3>of Panama Bank</h3>
         <Konto
           obj = {obj}
           setObj = {setObj}
